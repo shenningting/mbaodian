@@ -1,10 +1,10 @@
 <?php
-use Illuminate\Pagination\LengthAwarePaginator;
+//use Illuminate\Pagination\LengthAwarePaginator;
 namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use DB;
 
-class WendaController extends ExcessController
+class WendaController extends Controller
 {
     public function wenda(){
         //echo "123";die;

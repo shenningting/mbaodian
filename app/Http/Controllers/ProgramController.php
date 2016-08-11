@@ -5,7 +5,7 @@
  */
 namespace App\Http\Controllers;
 use DB;
-class ProgramController extends ExcessController
+class ProgramController extends Controller
 {
 	/*
 	 *招聘信息显示

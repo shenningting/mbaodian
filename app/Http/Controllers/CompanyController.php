@@ -5,7 +5,7 @@
  */
 namespace App\Http\Controllers;
 use DB;
-class CompanyController extends ExcessController
+class CompanyController extends Controller
 {
 	//公司列表
 	public function index(){

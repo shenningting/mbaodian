@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-class SmsController extends ExcessController
+class SmsController extends Controller
 {
     //消息列表
     public function messages(){

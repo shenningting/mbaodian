@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-class FriendController extends ExcessController
+class FriendController extends Controller
 {
     //好友列表
     public function friendlist(){
@@ -14,7 +14,7 @@ class FriendController extends ExcessController
     }
 
     public function ddk(){
-      对方客服
-    }阿萨德
+
+    }
 
 }

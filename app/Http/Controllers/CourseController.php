@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 use DB;
-class CourseController extends ExcessController
+class CourseController extends Controller
 {
     public function course(){
         //学院

@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-class UserController extends ExcessController
+class UserController extends Controller
 {
     //个人资料
     public function setprofile(){
