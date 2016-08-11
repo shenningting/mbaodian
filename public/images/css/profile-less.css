@@ -1,0 +1,107 @@
+.setting-profile {
+  padding-top: 100px;
+  width: 490px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+}
+.setting-profile .wlfg-wrap {
+  margin-bottom: 30px;
+}
+.setting-profile .wlfg-wrap .label-name {
+  float: left;
+  width: 70px;
+  text-align: right;
+  height: 40px;
+  line-height: 40px;
+  color: #787d82;
+  font-size: 14px;
+}
+.setting-profile .wlfg-wrap input {
+  font-size: 14px;
+}
+.setting-profile .wlfg-wrap .rlf-group {
+  float: left;
+  width: 412px;
+  margin-left: 8px;
+  color: #60686b;
+}
+.setting-profile .wlfg-wrap .input {
+  height: 20px;
+  line-height: 21px;
+  border: 1px solid #98a1a6;
+}
+.setting-profile .wlfg-wrap .input:focus {
+  border-color: #98a1a6;
+  -webkit-box-shadow: 0 0 10px #ccc;
+  -moz-box-shadow: 0 0 10px #ccc;
+  box-shadow: 0 0 10px #ccc;
+}
+.setting-profile .wlfg-wrap .rlf-input {
+  width: 334px;
+  padding: 9px 28px 9px 48px;
+  background: #ffffff url(/static/images/rl-sprite.png) no-repeat -80px -726px;
+}
+.setting-profile .wlfg-wrap .rlf-select {
+  display: block;
+  width: 412px;
+  height: 40px;
+  padding: 9px 28px 9px 10px;
+}
+.setting-profile .wlfg-wrap .profile-address select {
+  float: left;
+  margin-right: 11px;
+  width: 130px;
+  height: 40px;
+}
+.setting-profile .wlfg-wrap .profile-address .mr0 {
+  margin-right: 0;
+}
+.setting-profile .wlfg-wrap .rlf-radio-group {
+  max-width: 402px;
+  padding-left: 10px;
+}
+.setting-profile .wlfg-wrap .rlf-radio-group label {
+  margin-right: 26px;
+  line-height: 40px;
+}
+.setting-profile .wlfg-wrap .rlf-radio-group input[type=radio] {
+  margin-right: 10px;
+}
+.setting-profile .wlfg-wrap .textarea {
+  border: 1px solid #d0d6d9;
+  width: 396px;
+  line-height: 1.6em;
+  font-size: 14px;
+  padding: 7px;
+  resize: none;
+  transition: border-color 0.2s;
+  -webkit-transition: border-color 0.2s;
+  -moz-transition: border-color 0.2s;
+  -o-transition: border-color 0.2s;
+  line-height: 21px;
+  border: 1px solid #98a1a6;
+}
+.setting-profile .wlfg-wrap .textarea:focus {
+  border-color: #7bd089;
+}
+.setting-profile .wlfg-wrap .profile-btn {
+  display: block;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+  cursor: pointer;
+}
+.setting-profile .wlfg-wrap .rlf-btn-green {
+  background-color: #00b33b;
+}
+.setting-profile .wlfg-wrap .rlf-btn-green:hover {
+  background-color: #33a646;
+}
+.xubox_layer {
+  top: 44%!important;
+  width: 260px!important;
+  margin-left: 55px!important;
+}

@@ -1,0 +1,160 @@
+body {
+  background: #edeff0!important;
+}
+.avator-inner {
+  width: 160px;
+  height: 160px;
+  position: relative;
+}
+.avator-inner img {
+  width: 160px;
+  height: 160px;
+  border: none;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+}
+.avator-try {
+  height: 16px;
+  cursor: pointer;
+  line-height: 16px;
+  padding-left: 20px;
+  margin: 10px ;
+  font-size: 12px;
+  font-weight: bold;
+  color: #444;
+  background: #ffffff url(../images/setting-ch.png) no-repeat 0 0;
+}
+.avator-try:hover {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+.cprofile-field-wrap {
+  margin-left: 190px;
+  border-left: 1px solid #d0d6d9;
+}
+.cprofile-field-wrap .rlf-input {
+  width: 335px;
+}
+.cprofile-field-wrap .rlf-select {
+  width: 390px;
+}
+.cprofile-field-wrap .wlfg-wrap label {
+  width: 58px;
+}
+.cprofile-field-wrap .wlfg-wrap .rlf-group {
+  margin-left: 65px;
+}
+.result-wrap {
+  padding: 100px 0;
+  display: none;
+}
+.result-wrap a {
+  color: #39b94e;
+}
+.avator-btn-wrap {
+  position: relative;
+  margin-top: 10px;
+  height: 30px;
+  overflow: hidden;
+}
+.avator-btn-wrap input {
+  position: absolute;
+  top: -3px;
+  right: -3px;
+  font-size: 50px;
+  background: none;
+  filter: alpha(opacity=0);
+  opacity: 0;
+  cursor: pointer;
+}
+.avator-btn-fake:link {
+  display: block;
+  height: 30px;
+  color: #fff;
+  line-height: 30px;
+  background: #363d40;
+  text-align: center;
+}
+.avator-btn-fake:hover {
+  background: #0a0d0d;
+}
+.l-sns-weixin {
+  background-color: #4cbd71;
+}
+.l-sns-weixin:hover {
+  background-color: #3f9d5e;
+}
+.l-sns-btn i {
+  display: inline-block;
+  font-size: 18px;
+  vertical-align: middle;
+  background-image: none;
+  margin-right: 7px;
+}
+.avator-change {
+  text-align: center;
+}
+.setting-avator {
+  padding: 60px 150px;
+  text-align: center;
+}
+.avator-img {
+  position: relative;
+  line-height: 0;
+}
+.avator-img img {
+  width: 220px;
+  height: 220px;
+  border: none;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+}
+.avator-btn-group {
+  position: relative;
+  height: 220px;
+  margin-left: 260px;
+  width: 220px;
+}
+.avator-btn-inner {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.avator-btn-inner .l-sns-btn {
+  width: auto;
+}
+.avator-btn-inner .avator-btn-wrap {
+  height: 40px;
+  margin: 0;
+}
+.avator-btn-inner .avator-btn-fake:link {
+  height: 40px;
+  line-height: 40px;
+}
+.avator-btn-snswrap {
+  position: relative;
+}
+.avator-sns-relogintip {
+  position: absolute;
+  left: 100%;
+  top: 8px;
+  padding: 3px 5px 2px;
+  line-height: 1.5em;
+  cursor: pointer;
+  margin-left: 20px;
+  text-shadow: none;
+  background-color: #f2dede;
+  border: 1px solid #d59595;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  color: #b94a48;
+  font-size: 12px;
+  white-space: nowrap;
+}
+.setting-resetpwd {
+  padding-top: 150px;
+}
+.setting-bindsns {
+  padding-top: 80px;
+}

@@ -1,0 +1,74 @@
+body {
+  background-color: #fff;
+}
+body .settings-cont .setting-right,
+body .settings-cont .setting-left {
+  box-shadow: initial;
+}
+body .settings-cont .setting-right-wrap {
+  min-height: 400px;
+}
+.setting-phone-verify {
+  text-align: center;
+}
+.setting-phone-verify .phonelogo,
+.setting-phone-verify .maillogo {
+  width: 98px;
+  height: 98px;
+  border-radius: 50%;
+  background-color: #edf1f2;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 80px;
+}
+.setting-phone-verify .phonelogo i,
+.setting-phone-verify .maillogo i {
+  font-size: 50px;
+  color: #b5b9bc;
+  line-height: 98px;
+}
+.setting-phone-verify h4 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 20px 0;
+  text-align: center;
+}
+.setting-phone-verify p {
+  font-size: 14px;
+  color: #787d82;
+  text-align: center;
+  line-height: 24px;
+}
+.setting-phone-verify .phonebox,
+.setting-phone-verify .verifybox {
+  display: inline-block;
+  padding: 8px 0;
+  margin-bottom: 8px;
+}
+.setting-phone-verify .phonebox span,
+.setting-phone-verify .verifybox span {
+  display: inline-block;
+  font-size: 18px;
+  color: #14191e;
+  margin-right: 15px;
+}
+.setting-phone-verify .phonebox .change,
+.setting-phone-verify .verifybox .change {
+  display: inline-block;
+  color: #787d82;
+}
+.setting-phone-verify .binding,
+.setting-phone-verify .verify {
+  font-size: 14px;
+  color: #f01400;
+}
+.setting-phone-verify .verifybox {
+  display: block;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.setting-phone-verify .verifyboxt {
+  margin-bottom: 20px;
+  padding-top: 0;
+}
